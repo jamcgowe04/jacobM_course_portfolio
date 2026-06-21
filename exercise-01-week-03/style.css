@@ -1,34 +1,27 @@
-*{box-sizing:border-box;}
-
-body{
-    font-family:sans-serif;
-
-    background-color:honeydew;
-
-    margin:15px;
-
-    padding:25px;
-
+* {
+    box-sizing: border-box;
 }
 
-.card{
+body {
+    font-family: sans-serif;
+    background-color: honeydew;
+    margin: 15px;
+    padding: 25px;
+}
+
+.card {
     max-width: 600px;
-
     margin: 0;
+    padding: 24px;
+    background-color: black;
+    border: 4px solid darkslategray;
+}
 
-    padding: 24;
+.card h1 {
+    color: #2F4F4F;
+}
 
-    background-color:black
-
-    border= 4px darkslategray;
-
-    h1{
-        color:#2F4F4F;
-    }
-    p{
-        color:#36454F;
-    }
-
-    
+.card p {
+    color: #D3D3D3;
 }
 
