@@ -156,6 +156,6 @@ box-shadow: 0 0 10px #00ffff,
 }
 
 .button-06:hover{
-    transform: rotate(5deg);
+    transform: rotate(6deg);
     border-radius: 50px;
 }
