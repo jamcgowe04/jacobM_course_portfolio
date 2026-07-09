@@ -91,8 +91,8 @@ code {
 
 .nav-simple a {
   display: block;
-  padding: 8px 16px;
-  color: #0066CC;
+  padding: 12px;
+  color: #60a5fa;
   text-decoration: none;
   background-color: #fafafa;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -100,7 +100,7 @@ code {
 }
 
 .nav-simple a:hover {
-  background-color: #0066CC;
+  background-color: #60a5fa;
   color: #ffffff;
 }
 
@@ -140,23 +140,44 @@ code {
 }
 
 .nav-horizontal a:hover {
-  color: #0066CC;
+  color: #60a5fa;
 }
 
 .nav-horizontal+main {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  background-color: navy;
+  padding: 10px
+}
 
-.nav-custom ul {}
+.nav-custom ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-custom li {
+  margin-bottom:0;
+}
 
-.nav-custom li {}
+.nav-custom a {
+    border: 2px solid navy;
+    padding: 8px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+      transition: background-color 0.5s ease, color 0.5s ease;
 
-.nav-custom a {}
+}
 
-.nav-custom a:hover {}
-
+.nav-custom a:hover {
+  background-color:navy;
+  color:white
+}
 @media (width >=480px) {}
 
 @media (width >=1024px) {}
